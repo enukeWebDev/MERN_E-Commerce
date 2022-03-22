@@ -45,7 +45,7 @@ const data = {
       category: 'Pants',
       image: '/images/p4.jpg',
       price: 60,
-      countInStock: 12,
+      countInStock: 0,
       brand: 'Addidas',
       rating: 4.5,
       numReviews: 10,
