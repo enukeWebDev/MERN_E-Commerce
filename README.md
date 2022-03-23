@@ -9,3 +9,4 @@ This project is an E-Commerce using MERN Application. This is currently on-going
 - modify styles using React Bootstrap UI Framework - complete
 - render detailed information for each product - complete
 - create spinner loading and message box feature - complete
+- build the add to cart functionality (using Context) -
