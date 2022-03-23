@@ -18,10 +18,9 @@ function reducer(state, action) {
 
       const cartItems = existItem
         ? state.cart.cartItems.map((item) =>
-            item._ide === existItem._id ? newItem : item
+            item._id === existItem._id ? newItem : item
           )
         : [...state.cart.cartItems, newItem];
-
       return { ...state, cart: { ...state.cart, cartItems } };
 
     default:
