@@ -32,7 +32,7 @@ function SigninScreen() {
 
         <div className="mb-3">
           New Customer?{' '}
-          <Link to={`/signup?redirect=${redirect}`}>Create Your Account</Link>/>
+          <Link to={`/signup?redirect=${redirect}`}>Create Your Account</Link>
         </div>
       </Form>
     </Container>
