@@ -12,4 +12,5 @@ This project is an E-Commerce using MERN Application. This is currently on-going
 - build the add to cart functionality (using Context) - complete
 - will improve the functionality of the add to cart feauture - complete
 - create shopping cart to show products added to cart - complete
-- work on the functionality of shopping cart -
+- work on the functionality of shopping cart - complete
+- create a sigin screen for user -
