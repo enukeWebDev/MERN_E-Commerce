@@ -1,4 +1,4 @@
-This project is called Yellow Paper Apples (YPA).This is my wife's handcrafted journal business. She makes journals from scratch and she sells in Etsy. With the fee in Etsy rising soon, she would like to have her own E-commerce website.
+This project is called Yellow Paper Apples (YPA).This is my wife's handcrafted journal business. She makes journals from scratch and she sells in Etsy. Etsy's fee is increasing continuously and for small business like hers, it is better to have her own E-commerce website.
 
 After my Bootcamp, I promised her that I will build her own E-Commerce website. This is a learning process as I go.
 
