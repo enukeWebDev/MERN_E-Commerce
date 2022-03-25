@@ -42,20 +42,6 @@ const data = {
       description: 'Made with LOVE!',
     },
 
-    // {
-    //   _id: '3',
-    //   name: 'Nike Fit Pant',
-    //   slug: 'nike-fit-pant',
-    //   category: 'Pants',
-    //   image: '/images/p7.jpg',
-    //   price: 20,
-    //   countInStock: 15,
-    //   brand: 'Nike',
-    //   rating: 4.5,
-    //   numReviews: 14,
-    //   description: 'high quality product',
-    // },
-
     {
       _id: '4',
       name: 'Passport Type Journal',
@@ -69,20 +55,6 @@ const data = {
       numReviews: 10,
       description: 'Made with LOVE!',
     },
-
-    // {
-    //   _id: '4',
-    //   name: 'Addidas Fit Pant',
-    //   slug: 'addidas-fit-pant',
-    //   category: 'Pants',
-    //   image: '/images/p8.jpg',
-    //   price: 60,
-    //   countInStock: 0,
-    //   brand: 'Addidas',
-    //   rating: 4.5,
-    //   numReviews: 10,
-    //   description: 'high quality product',
-    // },
   ],
 };
 
