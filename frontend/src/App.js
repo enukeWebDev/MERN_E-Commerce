@@ -22,7 +22,7 @@ function App() {
           <Navbar bg="dark" variant="dark">
             <Container>
               <LinkContainer to="/">
-                <Navbar.Brand>La_Vendor</Navbar.Brand>
+                <Navbar.Brand>Yellow Paper Apples</Navbar.Brand>
               </LinkContainer>
 
               <Nav className="me-auto">
