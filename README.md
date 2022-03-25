@@ -1,3 +1,5 @@
+This project is called Yellow Paper Apples (YPA).This is my wife's handcrafted journal business that she sells in Etsy. After my Bootcamp, I promised her that I will build her own E-Commerce website. This is a learning process as I go.
+
 This project is an E-Commerce using MERN Application. This is currently on-going...
 
 - initial React app set up - complete
