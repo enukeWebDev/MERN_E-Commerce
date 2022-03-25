@@ -16,3 +16,15 @@ This project is an E-Commerce using MERN Application. This is currently on-going
 - create shopping cart to show products added to cart - complete
 - work on the functionality of shopping cart - complete
 - create a sigin screen for user - complete
+
+1. Main Screen
+
+!["MainScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/MainScreen.jpg?raw=true)
+
+2. Product Screen
+
+!["ProductScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/CartScreen.jpg?raw=true)
+
+3. Shopping Cart
+
+!["ShoppingCartScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/ShoppingCartScreen.jpg?raw=true)
