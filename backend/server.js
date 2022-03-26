@@ -21,6 +21,11 @@ const app = express();
 app.use('/api/seed', seedRouter);
 app.use('/api/products', productRouter);
 
+// Error handler for express
+app.use((err, req, res, next) => {
+  res.status(500).send({ message: err.message });
+});
+
 // app.get('/api/products', (req, res) => {
 //   res.send(data.products);
 // });
