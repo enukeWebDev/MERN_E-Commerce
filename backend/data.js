@@ -1,7 +1,7 @@
 const data = {
   products: [
     {
-      _id: '1',
+      // _id: '1',
       name: 'Personal Private Journal',
       slug: 'personal-private-journal',
       category: 'Personal',
@@ -15,7 +15,7 @@ const data = {
     },
 
     {
-      _id: '2',
+      // _id: '2',
       name: 'Fruit Theme Journal',
       slug: 'fruit-theme-journal',
       category: 'Fruit Theme',
@@ -29,7 +29,7 @@ const data = {
     },
 
     {
-      _id: '3',
+      // _id: '3',
       name: 'Flower Theme Journal',
       slug: 'flower-theme-journal',
       category: 'Flower Theme',
@@ -43,7 +43,7 @@ const data = {
     },
 
     {
-      _id: '4',
+      // _id: '4',
       name: 'Passport Type Journal',
       slug: 'passport-type-journal',
       category: 'Passport',
