@@ -6,6 +6,8 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Axios from 'axios';
 import { Store } from '../Store';
+import { toast } from 'react-toastify';
+import { getError } from '../utils';
 
 function SigninScreen() {
   const navigate = useNavigate();
@@ -36,7 +38,7 @@ function SigninScreen() {
       localStorage.setItem('userInfo', JSON.stringify(data));
       navigate(redirect || '/');
     } catch (err) {
-      alert('Invalid email or password!');
+      toast.error(getError(err));
     }
   };
 
