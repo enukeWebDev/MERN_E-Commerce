@@ -13,8 +13,15 @@ import CartScreen from './screens/CartScreen';
 import SigninScreen from './screens/SigninScreen';
 
 function App() {
-  const { state } = useContext(Store);
+  const { state, dispatch: ctxDispatch } = useContext(Store);
   const { cart, userInfo } = state;
+
+  const signoutHandler = () => {
+    ctxDispatch({
+      type: 'USER_SIGNOUT',
+    });
+    localStorage.removeItem('userInfo');
+  };
 
   return (
     <Router>
@@ -43,6 +50,14 @@ function App() {
                     <LinkContainer to="/orderhistory">
                       <NavDropdown.Item>Order History</NavDropdown.Item>
                     </LinkContainer>
+                    <NavDropdown.Divider />
+                    <Link
+                      className="dropdown-item"
+                      to="#signout"
+                      onClick={signoutHandler}
+                    >
+                      Sign Out
+                    </Link>
                   </NavDropdown>
                 ) : (
                   <Link className="nav-link" to="/signin">

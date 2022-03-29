@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { useLocation, Link, useNavigate } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import { Helmet } from 'react-helmet-async';
@@ -18,6 +18,7 @@ function SigninScreen() {
   const [password, setPassword] = useState('');
 
   const { state, dispatch: ctxDispatch } = useContext(Store);
+  const { userInfo } = state;
 
   const submitHandler = async (e) => {
     e.preventDefault(); // To prevent page refresh when user click the sign in button
@@ -38,6 +39,12 @@ function SigninScreen() {
       alert('Invalid email or password!');
     }
   };
+
+  useEffect(() => {
+    if (userInfo) {
+      navigate(redirect);
+    }
+  }, [navigate, redirect, userInfo]);
 
   return (
     <Container className="small-container">
