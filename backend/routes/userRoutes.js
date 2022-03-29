@@ -7,6 +7,7 @@ import expressAsyncHandler from 'express-async-handler';
 const userRouter = express.Router();
 
 // To catch the error in the async function inside it
+// The error from server.js will run if there is an error (error 500 message)
 userRouter.post(
   '/signin',
   expressAsyncHandler(async (req, res) => {
@@ -24,7 +25,7 @@ userRouter.post(
         return;
       }
     }
-    res.status(401).send({ message: 'Ivalid email or password!' });
+    res.status(401).send({ message: 'Invalid email or password!' });
   })
 );
 

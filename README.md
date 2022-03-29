@@ -20,7 +20,8 @@ This project is an E-Commerce using MERN Application. This is currently on-going
 - create a sigin screen for user - complete
 - connect to MONGO DB - complete
 - create a user model (admin & customer) - complete
-- create signin API using JWT for authentication -
+- create signin API using JWT for authentication - complete
+- test routes using Advance REST Client (ARC)
 
 1. Main Screen
 

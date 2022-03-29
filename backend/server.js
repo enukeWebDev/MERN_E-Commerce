@@ -20,7 +20,7 @@ mongoose
 
 const app = express();
 
-// The form data in the post request will be converted to json
+// The form data in the post request will be converted to json object in req.body
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
