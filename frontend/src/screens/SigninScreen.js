@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
-import { useLocation, Link } from 'react-router-dom';
+import React, { useState, useContext } from 'react';
+import { useLocation, Link, useNavigate } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import { Helmet } from 'react-helmet-async';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Axios from 'axios';
+import { Store } from '../Store';
 
 function SigninScreen() {
+  const navigate = useNavigate();
   //To get the redirect value from URL
   const { search } = useLocation();
   const redirectInUrl = new URLSearchParams(search).get('redirect');
@@ -14,6 +16,8 @@ function SigninScreen() {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+
+  const { state, dispatch: ctxDispatch } = useContext(Store);
 
   const submitHandler = async (e) => {
     e.preventDefault(); // To prevent page refresh when user click the sign in button
@@ -23,8 +27,16 @@ function SigninScreen() {
         email,
         password,
       });
-      console.log(`Object Data`, data);
-    } catch (err) {}
+
+      ctxDispatch({
+        type: 'USER_SIGNIN',
+        payload: data,
+      });
+      localStorage.setItem('userInfo', JSON.stringify(data));
+      navigate(redirect || '/');
+    } catch (err) {
+      alert('Invalid email or password!');
+    }
   };
 
   return (
