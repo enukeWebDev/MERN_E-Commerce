@@ -23,7 +23,8 @@ This project is an E-Commerce using MERN Application. This is currently on-going
 - create signin API using JWT for authentication - complete
 - test routes using Advance REST Client (ARC) - complete
 - impelement the sigin action/functionality - complete
-- implement shipping screen
+- implement shipping screen - complete
+- implement signup screen and functionality - complete
 
 1. Main Screen
 
