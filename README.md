@@ -37,3 +37,11 @@ This project is an E-Commerce using MERN Application. This is currently on-going
 3. Shopping Cart
 
 !["ShoppingCartScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/ShoppingCartScreen.jpg?raw=true)
+
+4. Shipping Screen
+
+!["ShippingScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/ShippingScreen.jpg?raw=true)
+
+4. Payment Screen
+
+!["PaymentScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/PaymentScreen.jpg?raw=true)
