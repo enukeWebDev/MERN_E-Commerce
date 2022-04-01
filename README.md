@@ -24,6 +24,10 @@ This project is an E-Commerce using MERN Application. This is currently on-going
 
 !["PaymentScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/PaymentScreen.jpg?raw=true)
 
+6. Place Order Screen
+
+!["PlaceOrderScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/PlaceOrder.jpg?raw=true)
+
 - initial React app set up - complete
 - render list product on main page - complete
 - create to home and product screen routes - complete
