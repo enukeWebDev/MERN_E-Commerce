@@ -4,6 +4,26 @@ After my Bootcamp, I promised her that I will build her own E-Commerce website. 
 
 This project is an E-Commerce using MERN Application. This is currently on-going...
 
+1. Main Screen
+
+!["MainScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/MainScreen.jpg?raw=true)
+
+2. Product Screen
+
+!["ProductScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/CartScreen.jpg?raw=true)
+
+3. Shopping Cart
+
+!["ShoppingCartScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/ShoppingCartScreen.jpg?raw=true)
+
+4. Shipping Screen
+
+!["ShippingScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/ShippingScreen.jpg?raw=true)
+
+5. Payment Screen
+
+!["PaymentScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/PaymentScreen.jpg?raw=true)
+
 - initial React app set up - complete
 - render list product on main page - complete
 - create to home and product screen routes - complete
@@ -25,23 +45,5 @@ This project is an E-Commerce using MERN Application. This is currently on-going
 - impelement the sigin action/functionality - complete
 - implement shipping screen - complete
 - implement signup screen and functionality - complete
-
-1. Main Screen
-
-!["MainScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/MainScreen.jpg?raw=true)
-
-2. Product Screen
-
-!["ProductScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/CartScreen.jpg?raw=true)
-
-3. Shopping Cart
-
-!["ShoppingCartScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/ShoppingCartScreen.jpg?raw=true)
-
-4. Shipping Screen
-
-!["ShippingScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/ShippingScreen.jpg?raw=true)
-
-4. Payment Screen
-
-!["PaymentScreen"](https://github.com/enukeWebDev/MERN_E-Commerce/blob/master/frontend/public/images/PaymentScreen.jpg?raw=true)
+- implement payment screen and functionality - complete
+- implement place order / preview order screen and functionality -
