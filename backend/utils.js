@@ -14,3 +14,23 @@ export const generateToken = (user) => {
     }
   );
 };
+
+// Middleware function isAuth is responsible to fulfill the request of the user
+export const isAuth = (req, res, next) => {
+  const authorization = req.headers.authorization;
+
+  if (authorization) {
+    // Remove the BEARER part of only take the token part
+    const token = authorization.slice(7, authorization.length);
+    jwt.verify(token, process.env.JWT_SECRET, (err, decode) => {
+      if (err) {
+        res.status(401).send({ message: 'Invalid Token!' });
+      } else {
+        req.user = decode;
+        next(); // This will call the expressAsyncHandler function in orderRoutes
+      }
+    });
+  } else {
+    res.status(401).send({ message: 'No Token!' });
+  }
+};
